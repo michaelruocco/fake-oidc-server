@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: fake-oidc-server
+  main:
+    banner-mode: off
+
+management:
+  endpoints:
+    web.exposure.include: health,info
+  endpoint:
+    health:
+      show-details: always
